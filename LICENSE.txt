@@ -1,4 +1,6 @@
-FORGE by Oliver Fradgley and the FORGE game system for Foundry VTT by Lee Talman are both licensed under a Creative Commons Attribution 4.0 International License. 2023.
+FORGE by Oliver Fradgley and the FORGE game system for Foundry VTT by 
+Lee Talman are both licensed under a Creative Commons Attribution 4.0 
+International License.
 
 Attribution 4.0 International
 
