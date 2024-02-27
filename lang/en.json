@@ -1,0 +1,96 @@
+{
+  "FORGE": {
+    "Attribute": {
+      "Str": {
+        "Long": "Strength",
+        "Abbr": "STR",
+        "Detail": "Used for melee attacks and checks requiring physical power, like lifting gates, climbing, forcing doors, etc. Strength contributes to how much a PC can carry."
+      },
+      "Dex": {
+        "Long": "Dexterity",
+        "Abbr": "DES",
+        "Detail": "Used for ranged attacks, solo combat initiative and checks requiring poise, speed, and reflexes, like dodging, sneaking, picking pockets, balancing, etc."
+      },
+      "Con": {
+        "Long": "Constitution",
+        "Abbr": "CON",
+        "Detail": "Used for death saves and checks to resist poison, disease, cold, etc. Constitution affects incoming healing as well as the number of hit points gained per level."
+      },
+      "Int": {
+        "Long": "Intelligence",
+        "Abbr": "INT",
+        "Detail": "Used for arcane spellcasting and checks requiring concentration and precision, such as resisting magical effects, crafting items, tinkering, picking locks, disabling traps, etc."
+      },
+      "Wis": {
+        "Long": "Wisdom",
+        "Abbr": "WIS",
+        "Detail": "Used for divine spellcasting and checks requiring perception and insight, such as tracking, navigating, searching for secrets, detecting illusions, knowledge of religion and lore, etc."
+      },
+      "Cha": {
+        "Long": "Charisma",
+        "Abbr": "CHA",
+        "Detail": "Used for group combat initiative and checks to charm, persuade, deceive, interrogate, intimidate, provoke, etc. Charisma determines how many followers a PC may lead, as well as their morale."
+      }
+    },
+    "Check": {
+      "Flavor": "Attribute Check",
+      "Check": "Check",
+      "Detail": "Used to determine the outcome of uncertain events throughout the game. An attribute check can sometimes be referred to as a ‘saving throw’ or ‘save’ when a character is trying to avoid negative effects, however they are functionally the same."
+    },
+    "Distance": {
+      "Close": {
+        "label": "Close",
+        "Detail": "Between 5’ and 15’. Spells or effects with Close radius will fill the 15’. Melee combatants in close range can move to an appropriate position for their weapon on their turn (e.g. 5’ for sword, 10’ for spear)."
+      },
+      "Near": {
+        "label": "Near",
+        "Detail": "Around 30’, or double the maximum Close range. PC’s have a default movement range of Near per movement action."
+      },
+      "Far": {
+        "label": "Far",
+        "Detail": "Around 60’, or double Near distance. This is the furthest that a character could reasonably throw a small object. Far may be reached when a PC takes a second movement action on their turn. This is generally the longest distance PC’s will encounter in a dungeon area."
+      },
+      "VeryFar": {
+        "label": "Very Far",
+        "Detail": "Around 120’, or double Far distance. This is the maximum range for light ranged weapons. It is generally not possible for a PC to reach Very Far in one turn."
+      },
+      "Distant": {
+        "label": "Distant",
+        "Detail": "Around 240’, or double Very Far distance. This is the maximum range for long-range spells and heavy ranged weapons. Anything beyond Distant is generally limited to sight only."
+      }
+    },
+    "Health": {
+      "HP": "HP",
+      "HitPoints": "Hit Points",
+      "Flavor": "rests, healing a total of"
+    },
+    "SheetLabels": {
+      "Actor": "Actor Sheet",
+      "Item": "Item Sheet"
+    },
+    "Item": {
+      "Spell": {
+        "SpellLVL": "Level {level} Spells",
+        "AddLVL": "Add LVL {level}"
+      }
+    },
+    "Effect": {
+      "Source": "Source",
+      "Toggle": "Toggle Effect",
+      "Temporary": "Temporary Effects",
+      "Passive": "Passive Effects",
+      "Inactive": "Inactive Effects"
+    }
+  },
+  "TYPES": {
+    "Actor": {
+      "character": "Character",
+      "npc": "NPC"
+    },
+    "Item": {
+      "item": "Item",
+      "feature": "Feature",
+      "spell": "Spell"
+    }
+  }
+}

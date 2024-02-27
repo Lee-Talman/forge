@@ -1,0 +1,18 @@
+{
+  "name": "forge",
+  "version": "1.0.0",
+  "description": "CSS compiler for the Forge system",
+  "scripts": {
+    "build": "sass src/scss/forge.scss css/forge.css --style=expanded --no-source-map",
+    "watch": "sass src/scss/forge.scss css/forge.css --style=expanded --source-map --watch"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "Asacolips",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "sass": "^1.53.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "forge",
+  "title": "F.O.R.G.E.",
+  "description": "F.O.R.G.E. (Fantasy Open Roleplaying Game Engine) is a simple, quick to learn roleplaying game by Oliver Fradgley that is fully compatible with all OSR and B/X D&D resources.",
+  "authors": [
+    {
+      "name": "Oliver Fradgley",
+      "discord": "prozap"
+    },
+    {
+      "name": "Lee Talman",
+      "discord": ".pizzaWizard"
+    }
+  ],
+  "url": "https://github.com/Lee-Talman/forge",
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "bugs": "Replace this with a link to file issues or tickets",
+  "changelog": "CHANGELOG.md",
+  "media": [
+    {
+      "type": "setup",
+      "url": "systems/forge/assets/anvil-impact.png",
+      "thumbnail": "systems/forge/assets/anvil-impact.png"
+    }
+  ],
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": 11,
+    "verified": "11.315"
+  },
+  "esmodules": ["module/forge.mjs"],
+  "styles": ["css/forge.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [],
+  "packFolders": [],
+  "socket": false,
+  "manifest": "Replace this with a link to the /latest release system.json so people can receive updates after they've installed the system",
+  "download": "This must link to a .zip file of the current version",
+  "background": "systems/forge/assets/anvil-impact.png",
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power"
+}
